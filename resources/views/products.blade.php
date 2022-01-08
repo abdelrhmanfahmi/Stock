@@ -35,7 +35,7 @@
                             <td>{{ $key+1 }}</td>
                             <td>{{ $product->product_name }}</td>
                             <td>{{ $product->product_price }}</td>
-                            <td>{{ $product->stock_id }}</td>
+                            <td>{{ @App\Stock::find($product->stock_id)->stock_name }}</td>
                             <td>
                                 <a href="/enterProductFromStock/{{$product->id}}" class="btn btn-success">Enter Product To Stock</a>
                             </td>

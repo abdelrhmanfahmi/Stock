@@ -40,8 +40,11 @@
                       </table>
                 </div>
                 <div class="row pt-3">
-                    <div class="col-md-12 text-center">
+                    <div class="col-md-6 text-center">
                         <a href="/products" class="btn btn-success">All Products</a>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <a href="/stocks/create" class="btn btn-primary">Add Stock</a>
                     </div>
                 </div>
             @else
